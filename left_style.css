@@ -10,18 +10,18 @@ body{
 }
 
 .main{
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   font-family: Barlow Condensed ExtraLight, sans-serif;
   width: 1600px;
   height: 1200px;
   background-color: #EFF6FF;
-  flex: 33.33%;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width >= 1600px) and (max-height >= 1200px) {
   .main {
-    flex: 100%;
+    min-height: 400px;
+    min-width: 600px;
   }
 }
 
