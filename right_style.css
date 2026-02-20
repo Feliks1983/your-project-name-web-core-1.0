@@ -1,0 +1,309 @@
+.right_section {
+  position: absolute;
+  top: 100px;
+  left: 840px;
+  width: 680px;
+  height: 1000px;
+  background-color: #FFFFFF;
+}
+
+.text_today {
+  position: absolute;
+  top: 80px;
+  left: 72px;
+  width: 300px;
+  font-size: 31px;
+  color: #7B8A92;
+}
+
+.text_today p + p {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  width: 440px;
+  font-size: 20px;
+  color: #96A5B1;
+}
+
+.favicons {
+  position: absolute;
+  top: 233px;
+  left: 73px;
+  width: 530px;
+  height: 50px;
+  color: #FFFFFF;
+}
+
+.btn_facebook {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 246px;
+  height: 42px;
+  background-color: #255A9B;
+}
+
+.btn_facebook:hover {
+  background-color: #3698FB;
+}
+
+.btn_facebook > p {
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  width: 246px;
+  color: #EEEEEE;
+}
+
+.btn_linkedin {
+  position: absolute;
+  top: 8px;
+  left: 282px;
+  width: 246px;
+  height: 42px;
+  background-color: #0076B6;
+}
+
+.btn_linkedin:hover {
+  background-color: #3698FB;
+}
+
+.btn_linkedin > p {
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  width: 246px;
+  color: #EEEEEE;
+}
+
+.favicons div + div > p {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  font-size: 14px;
+  color: #EEEEEE;
+}
+
+.facebook {
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width: 18px;
+  height: 18px;
+}
+
+.or_liniar {
+  position: absolute;
+  top: 325px;
+  left: 327px;
+  width: 40px;
+  height: 20px;
+}
+
+.or_liniar p {
+  font-size: 10px;
+  color: #AFAFAF;
+}
+
+.or_liniar p + p {
+  position: absolute;
+  left: -114px;
+  top: 6px;
+  width: 108px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.or_liniar p + p + p {
+  position: absolute;
+  left: 23px;
+  top: 6px;
+  width: 108px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.email {
+  position: absolute;
+  top: 395px;
+  left: 72px;
+  color: #AFAFAF;
+  border: #EEEEEE 1px solid;
+  border-left: #3698FB 2px solid;
+  font-size: 14px;
+}
+
+.email_input {
+  position: relative;
+  width: 240px;
+  height: 48px;
+}
+
+.email p {
+  position: absolute;
+  left: 5px;
+  top: -12px;
+}
+
+.email p + p {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: #7B8A92;
+}
+
+.phon {
+  position: absolute;
+  top: 384px;
+  left: 363px;
+  font-size: 14px;
+  color: #AFAFAF;
+  border: #EEEEEE 1px solid;
+}
+
+.phon_input {
+  position: absolute;
+  left: -7px;
+  top: 12px;
+  width: 240px;
+  height: 48px;
+}
+
+.phon p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 14px;
+}
+
+.bottom_title-text {
+  position: absolute;
+  top: 490px;
+  left: 70px;
+  width: 300px;
+  font-size: 21px;
+  color: #7B8A92;
+}
+
+.bottom_title-text p + p {
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  font-size: 14px;
+  color: #96A5B1;
+}
+
+.checkboxes {
+  position: absolute;
+  top: 605px;
+  left: 74px;
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  color: #7B8A92;
+  font-size: 14px;
+}
+
+.checkbox_input {
+  position: relative;
+  top: 4px;
+  left: -2px;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #EEEEEE;
+}
+
+.bordercheck {
+  position: relative;
+  left: -3px;
+  width: 17px;
+  height: 17px;
+}
+
+.checkbox_input-trust {
+  position: relative;
+  top: 3px;
+  left: -2px;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #EEEEEE;
+}
+
+.smail_check {
+  position: relative;
+  top: 2px;
+  left: -3px;
+  width: 11px;
+  height: 11px;
+  border: 2px solid #EEEEEE;
+}
+
+.bottom_text-down {
+  position: absolute;
+  top: 655px;
+  left: 80px;
+  width: 244px;
+  height: 74px;
+  font-size: 13px;
+  padding-left: 10px;
+  color: #AFAFAF;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.footer {
+  position: absolute;
+  top: 762px;
+  left: 96px;
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #AFAFAF;
+}
+
+.footer p + p {
+  position: relative;
+  top: 0px;
+  left: -27px;
+  width: 86px;
+  height: 14px;
+  color: #3698FB;
+  padding: 0px;
+  border-bottom: 2px solid #0076B6;
+}
+
+.footer input[type="checkbox"] {
+  position: absolute;
+  top: 9px;
+  left: -30px;
+  width: 14px;
+  height: 14px;
+  font-size: 13px;
+  border: 3px solid #EEEEEE;
+}
+
+.btn-create_account {
+  position: absolute;
+  top: 850px;
+  left: 74px;
+  width: 246px;
+  height: 43px;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3698FB ;
+}
+
+.btn-create_account:hover {
+  background-color: #96A5B1;
+}
+
