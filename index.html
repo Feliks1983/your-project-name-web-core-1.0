@@ -18,7 +18,7 @@
 			</div>
 			<section class="right_section">
 				<div class="text_today">
-					<p>Get iinto it today</p>
+					<h1>Get iinto it today</h1>
 					<p>There is no charge or obligation registration</p>
 				</div>
 				<div class="favicons">
@@ -41,12 +41,14 @@
 					<p></p>
 				</div>
 				<div class="email">
-					<input class="email_input" type="text">
+					<label for="email"></label>
+					<input class="email_input" type="text" id="email">
 					<p>Email</p>
 					<p>gus.goodwin@gmail.com</p>
 				</div>
 				<div class="phon">
-					<input class="phon_input" type="number">
+					<label for="phon"></label>
+					<input class="phon_input" type="number" id="phon">
 					<p>Phone</p>
 				</div>
 				<div class="bottom_title-text">
@@ -54,32 +56,28 @@
 					<p>Select the type of investor yuo are below.</p>
 				</div>
 				<div class="checkboxes">
-          <label class="check">
-            <input class="checkbox_input bordercheck" type="radio" name="drone" />
-            Individual
+            <input class="checkbox_input bordercheck" type="radio" name="drone" checked />
+						<label class="check">Individual</label>
             <input type="radio" class="smail_check" name="drone">
-          </label>
-          <label class="check">
+          
             <input class="checkbox_input" type="radio" name="drone" />
-            Bisiness
+						<label class="check">Bisiness</label>
             <input type="radio" class="smail_check" name="drone">
-          </label>
-          <label class="check">
+          
             <input class="checkbox_input" type="radio" name="drone" />
-            IRA
+						<label class="check">IRA</label>
             <input type="radio" class="smail_check" name="drone">
-          </label>
-          <label class="check">
-            <input class="checkbox_input-trust" type="radio" name="drone" />
-            Trust
-            <input type="radio" class="smail_check" name="drone">
-          </label>
+         
+            <input class="checkbox_input" type="radio" name="drone" />
+						<label class="check">Trust</label>
+            <input type="radio" class="smail_check" name="drone">	
 				</div>
         <div class="bottom_text-down">
           <p>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</p>
         </div>
         <div class="footer">
-          <input type="checkbox">
+					<label for="agree"></label>
+          <input type="checkbox" id="agree">
             <p>I agree to the terms and receiving notification from iintoo</p>
             <p>View full terms</p>
           </input>
