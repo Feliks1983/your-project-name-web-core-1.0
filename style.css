@@ -11,9 +11,10 @@ body{
 
 .main{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   width: 1600px;
   height: 1200px;
+	padding: 100px;
   font-family: Barlow;
   background-color: #EFF6FF;
 }
@@ -26,8 +27,8 @@ body{
 }
 
 .bg{
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 0px;
+  margin-left: 0px;
   width: 760px;
   height: 1000px;
 }
@@ -41,8 +42,8 @@ body{
 }
 
 .right_section {
-	margin-left: 840px;
-	margin-top: -1052px;
+	margin-left: 0px;
+	margin-top: 0px;
 	width: 680px;
 	height: 1000px;
 	background-color: #FFFFFF;
